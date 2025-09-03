@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     prompt: promptInput.value,
                     images: base64Images, // 注意：这里从 'image' 改为了 'images'，并且值是一个数组
                     // apikey: apiKeyInput.value
-                    apikey:'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'
+                    apikey:'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'
                     //我自己的key，别滥用别误传，你们自己在openrouter上注册一个也能申请，多谢同行理解,这个key一天后销毁
                 })
             });
