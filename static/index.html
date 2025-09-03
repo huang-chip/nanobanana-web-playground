@@ -31,6 +31,11 @@
 
             <div class="prompt-section">
                 <h2>2. 输入提示词</h2>
+                <div class="prompt-header">
+                    <button id="showcase-btn" class="showcase-button">
+                        <span>📚 浏览案例库</span>
+                    </button>
+                </div>
                 <textarea id="prompt-input" placeholder="例如：一只穿着超级英雄斗篷的猫，电影级灯光"></textarea>
             </div>
 
@@ -47,6 +52,35 @@
             </div>
         </div>
     </div>
+    
+    <!-- 案例展示弹窗 -->
+    <div id="showcase-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🍌 Nano Banana 案例库</h2>
+                <button id="close-modal" class="close-btn">×</button>
+            </div>
+            
+            <div class="modal-filters">
+                <div class="search-container">
+                    <input type="text" id="case-search" placeholder="搜索案例名称、场景或效果...">
+                </div>
+                <div class="filter-tags">
+                    <button class="filter-tag active" data-category="all">全部</button>
+                    <button class="filter-tag" data-category="character">人物角色</button>
+                    <button class="filter-tag" data-category="style">风格转换</button>
+                    <button class="filter-tag" data-category="scene">场景生成</button>
+                    <button class="filter-tag" data-category="object">物品设计</button>
+                    <button class="filter-tag" data-category="effect">特效处理</button>
+                </div>
+            </div>
+            
+            <div class="cases-grid" id="cases-grid">
+                <!-- 案例将通过JavaScript动态填充 -->
+            </div>
+        </div>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

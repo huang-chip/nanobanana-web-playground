@@ -249,3 +249,365 @@ input[type="password"] {
         padding: 1rem;
     }
 }
+
+/* 案例库按钮样式 */
+.prompt-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+}
+
+.showcase-button {
+    background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.showcase-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+/* 弹窗样式 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 1%;
+    width: 98%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.modal-content {
+    background: #1e1e1e;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 90vh;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #333;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* 筛选器样式 */
+.modal-filters {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #333;
+}
+
+.search-container {
+    margin-bottom: 1rem;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background: #252525;
+    color: #e0e0e0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.search-container input:focus {
+    outline: none;
+    border-color: #f97316;
+    box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
+}
+
+.filter-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-tag {
+    padding: 6px 12px;
+    border: 1px solid #444;
+    background: #252525;
+    color: #e0e0e0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.filter-tag:hover {
+    border-color: #f97316;
+    background: #2a2a2a;
+}
+
+.filter-tag.active {
+    background: #f97316;
+    border-color: #f97316;
+    color: white;
+}
+
+/* 案例网格样式 */
+.cases-grid {
+    padding: 1.5rem 2rem;
+    overflow-y: auto;
+    max-height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+   
+    &:hover {
+        &::-webkit-scrollbar-thumb {
+            background-color: #ececec;
+        }
+    }
+}
+
+.case-card {
+    background: #252525;
+    border-radius: 12px;
+    border: 1px solid #333;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+.case-card:hover {
+    transform: translateY(-2px);
+    border-color: #f97316;
+    box-shadow: 0 8px 25px rgba(249, 115, 22, 0.15);
+}
+
+.case-image {
+    width: 100%;
+    height: 200px;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 0.9rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.case-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.case-image.placeholder::before {
+    content: "🖼️ 效果预览";
+}
+
+.case-info {
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+.case-description {
+    color: #888;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.case-category {
+    display: inline-block;
+    background: #333;
+    color: #ccc;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+/* 图片表格样式 */
+.case-images-table {
+    width: 100%;
+    display:flex;
+}
+
+.image-row {
+    gap: 1px;
+    background: #333;
+}
+
+.image-row.single {
+    grid-template-columns: 1fr;
+}
+
+.image-cell {
+    background: #1a1a1a;
+    position: relative;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+}
+
+.image-label {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    z-index: 1;
+}
+
+.image-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 0.8rem;
+}
+
+/* 完整提示词显示 */
+.case-prompt-full {
+    background: #1a1a1a;
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.prompt-label {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.prompt-text {
+    font-size: 0.8rem;
+    color: #ccc;
+    line-height: 1.4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.case-meta {
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.case-card.selected {
+    border-color: #22c55e;
+    background: #1f2937;
+}
+
+.case-card.selected::after {
+    content: "✓";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #22c55e;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .modal-content {
+        margin: 0.5rem;
+        max-height: 95vh;
+    }
+    
+    .cases-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    
+    .modal-filters {
+        padding: 1rem;
+    }
+    
+    .modal-header {
+        padding: 1rem;
+    }
+}

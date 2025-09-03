@@ -1,3 +1,7 @@
+> 本项目是在其他开源项目上二次开发得来，在此特别鸣谢：
+> https://github.com/xiguapiwork/nanobanana
+> https://github.com/PicoTrex/Awesome-Nano-Banana-images
+> OpenRouter提供的免费试用机会和接口
 
 # Nanobanana - OpenRouter Gemini API 代理 & 图片生成 Web UI
 
