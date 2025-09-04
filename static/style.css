@@ -20,7 +20,9 @@ body {
     background: linear-gradient(90deg, #fde047, #f97316, #ef4444);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 0.2rem; /* 减小与副标题的距离 */
+    /*margin-bottom: 0.2rem;  减小与副标题的距离 */
+    margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 
 .title span {
@@ -32,7 +34,7 @@ body {
 .subtitle {
     text-align: center;
     color: #888;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
 }
 

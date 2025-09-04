@@ -1,7 +1,20 @@
 > 本项目是在其他开源项目上二次开发得来，在此特别鸣谢：
-> https://github.com/xiguapiwork/nanobanana
-> https://github.com/PicoTrex/Awesome-Nano-Banana-images
-> OpenRouter提供的免费试用机会和接口
+> - https://github.com/xiguapiwork/nanobanana
+> - https://github.com/PicoTrex/Awesome-Nano-Banana-images
+> - OpenRouter提供的免费试用机会和接口
+
+## 我的改进
+
+### api-key上手即用
+在Deno，项目-设置中，**可以找到设置 Environment Variables  环境变量** 的地方，添加变量名为 `OPENROUTER_API_KEY`，将你从openRouter申请的key填进去，即可从环境变量中安全的获取到apikey，而不用硬编码到代码中了。
+我的模型选用的是： `google/gemini-2.5-flash-image-preview:free`
+
+### 新加功能
+给用户提供了57个nanobanana案例和提示词，可以预览效果，点击即复制，降低了用户自己构思的门槛，在这里，再次感谢https://github.com/PicoTrex/Awesome-Nano-Banana-images 提供的案例和各位创作者的制作，这里表明了原作者信息
+
+
+---
+`保留原项目README`
 
 # Nanobanana - OpenRouter Gemini API 代理 & 图片生成 Web UI
 
