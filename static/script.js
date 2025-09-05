@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
             window.URL.revokeObjectURL(url);
             
             // 显示成功提示
-            showNotification('✅ 图片下载成功！');
+            showDownloadNotification('✅ 图片下载成功！');
             
         } catch (error) {
             console.error('下载失败:', error);
@@ -209,6 +209,39 @@ document.addEventListener('DOMContentLoaded', () => {
             downloadBtn.disabled = false;
         }
     });
+
+    // 下载通知函数
+    function showDownloadNotification(message) {
+        // 创建通知元素
+        const notification = document.createElement('div');
+        notification.className = 'download-notification';
+        notification.textContent = message;
+        notification.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #22c55e;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+            z-index: 1001;
+            font-weight: 500;
+            animation: slideInRight 0.3s ease;
+        `;
+        
+        document.body.appendChild(notification);
+        
+        // 3秒后自动移除
+        setTimeout(() => {
+            notification.style.animation = 'slideOutRight 0.3s ease';
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.parentNode.removeChild(notification);
+                }
+            }, 300);
+        }, 3000);
+    }
 });
 
 // 案例库数据 - 精确对应 https://github.com/PicoTrex/Awesome-Nano-Banana-images 的完整47个案例
