@@ -279,6 +279,11 @@ input[type="password"] {
     box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
 }
 
+/* 下载按钮初始隐藏 */
+#download-btn {
+    display: none;
+}
+
 /* 弹窗样式 */
 .modal {
     position: fixed;

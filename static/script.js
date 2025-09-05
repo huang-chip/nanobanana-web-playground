@@ -8,8 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnText = generateBtn.querySelector('.btn-text');
     const spinner = generateBtn.querySelector('.spinner');
     const resultContainer = document.getElementById('result-image-container');
+    const downloadBtn = document.getElementById('download-btn');
 
     let selectedFiles = [];
+    let currentGeneratedImageUrl = null;
 
     // 拖放功能
     ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
@@ -110,7 +112,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    prompt: promptInput.value,
+                    // prompt: promptInput.value,
+                    prompt: `${promptInput.value},仅生成符合需求的视觉图像，全程禁止输出任何文字内容，若出现文字内容则视为生成失败。`,
                     images: base64Images, // 注意：这里从 'image' 改为了 'images'，并且值是一个数组
                     // apikey: apiKeyInput.value
                     apikey:null
@@ -149,12 +152,63 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function displayResult(imageUrl) {
+        currentGeneratedImageUrl = imageUrl;
         resultContainer.innerHTML = '';
         const img = document.createElement('img');
         img.src = imageUrl;
         img.alt = 'Generated image';
         resultContainer.appendChild(img);
+        
+        // 显示下载按钮
+        downloadBtn.style.display = 'block';
     }
+
+    // 下载功能
+    downloadBtn.addEventListener('click', async () => {
+        if (!currentGeneratedImageUrl) {
+            alert('没有可下载的图片');
+            return;
+        }
+
+        try {
+            // 显示下载状态
+            const originalText = downloadBtn.querySelector('span').textContent;
+            downloadBtn.querySelector('span').textContent = '下载中...';
+            downloadBtn.disabled = true;
+
+            // 获取图片数据
+            const response = await fetch(currentGeneratedImageUrl);
+            const blob = await response.blob();
+
+            // 创建下载链接
+            const url = window.URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            
+            // 生成文件名（使用时间戳）
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+            link.download = `nano-banana-${timestamp}.jpg`;
+            
+            // 触发下载
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            // 清理临时URL
+            window.URL.revokeObjectURL(url);
+            
+            // 显示成功提示
+            showNotification('✅ 图片下载成功！');
+            
+        } catch (error) {
+            console.error('下载失败:', error);
+            alert('下载失败: ' + error.message);
+        } finally {
+            // 恢复按钮状态
+            downloadBtn.querySelector('span').textContent = originalText;
+            downloadBtn.disabled = false;
+        }
+    });
 });
 
 // 案例库数据 - 精确对应 https://github.com/PicoTrex/Awesome-Nano-Banana-images 的完整47个案例
@@ -169,7 +223,7 @@ const showcaseCases = [
         imageRequired: true,
         inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case1/input.jpg",
         outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case1/output.jpg"
-        // 将https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case1/output.jpg域名头替换为
+        // 将https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case1/output.jpg
         // https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case1/output.jpg
     },
     {
