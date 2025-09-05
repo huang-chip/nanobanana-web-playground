@@ -167,8 +167,10 @@ const showcaseCases = [
         prompt: "将这张照片变成角色手办。在它后面放置一个印有角色图像的盒子，盒子上有一台电脑显示Blender建模过程。在盒子前面添加一个圆形塑料底座，角色手办站在上面。如果可能的话，将场景设置在室内",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case1/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case1/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case1/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case1/output.jpg"
+        // 将https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case1/output.jpg域名头替换为
+        // https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case1/output.jpg
     },
     {
         id: 2,
@@ -178,8 +180,8 @@ const showcaseCases = [
         prompt: "画出红色箭头看到的内容 / 从红色圆圈沿箭头方向画出真实世界的视角",
         author: "@tokumin",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case2/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case2/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case2/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case2/output.jpg"
     },
     {
         id: 3,
@@ -189,7 +191,7 @@ const showcaseCases = [
         prompt: "你是一个基于位置的AR体验生成器。在这张图像中突出显示[兴趣点]并标注相关信息",
         author: "@bilawalsidhu",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case3/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case3/output.jpg"
     },
     {
         id: 4,
@@ -199,8 +201,8 @@ const showcaseCases = [
         prompt: "将图像制作成白天和等距视图[仅限建筑]",
         author: "@Zieeett",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case4/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case4/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case4/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case4/output.jpg"
     },
     {
         id: 5,
@@ -210,8 +212,8 @@ const showcaseCases = [
         prompt: "将角色的风格改为[1970]年代的经典[男性]风格，添加[长卷发]，[长胡子]，将背景改为标志性的[加州夏季风景]，不要改变角色的面部",
         author: "@AmirMushich",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case5/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case5/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case5/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case5/output.jpg"
     },
     {
         id: 6,
@@ -221,8 +223,8 @@ const showcaseCases = [
         prompt: "一个模特摆姿势靠在粉色宝马车上。她穿着以下物品，场景背景是浅灰色。绿色外星人是一个钥匙扣，挂在粉色手提包上。模特肩上还有一只粉色鹦鹉。旁边坐着一只戴着粉色项圈和金色耳机的哈巴狗",
         author: "@MrDavids1",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case6/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case6/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case6/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case6/output.jpg"
     },
     {
         id: 7,
@@ -232,8 +234,8 @@ const showcaseCases = [
         prompt: "这张照片很无聊很平淡。增强它！增加对比度，提升色彩，改善光线使其更丰富，你可以裁剪和删除影响构图的细节",
         author: "@op7418",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case7/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case7/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case7/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case7/output.jpg"
     },
     {
         id: 8,
@@ -243,8 +245,8 @@ const showcaseCases = [
         prompt: "让这两个角色使用图3的姿势进行战斗。添加适当的视觉背景和场景互动，生成图像比例为16:9",
         author: "@op7418",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case8/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case8/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case8/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case8/output.jpg"
     },
     {
         id: 9,
@@ -254,8 +256,8 @@ const showcaseCases = [
         prompt: "将照片转换为俯视角度并标记摄影师的位置",
         author: "@op7418",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case9/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case9/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case9/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case9/output.jpg"
     },
     {
         id: 10,
@@ -265,8 +267,8 @@ const showcaseCases = [
         prompt: "帮我将角色变成类似图2的白色轮廓贴纸。角色需要转换成网页插画风格，并添加一个描述图1的俏皮白色轮廓短语",
         author: "@op7418",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case10/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case10/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case10/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case10/output.jpg"
     },
     {
         id: 11,
@@ -276,8 +278,8 @@ const showcaseCases = [
         prompt: "生成一个女孩cosplay这张插画的照片，背景设置在Comiket",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case11/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case11/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case11/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case11/output.jpg"
     },
     {
         id: 12,
@@ -287,8 +289,8 @@ const showcaseCases = [
         prompt: "为我生成人物的角色设定（Character Design）比例设定（不同身高对比、头身比等）三视图（正面、侧面、背面）表情设定（Expression Sheet）动作设定（Pose Sheet）服装设定（Costume Design）",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case12/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case12/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case12/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case12/output.jpg"
     },
     {
         id: 13,
@@ -298,8 +300,8 @@ const showcaseCases = [
         prompt: "准确使用图2色卡为图1人物上色",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case13/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case13/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case13/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case13/output.jpg"
     },
     {
         id: 14,
@@ -309,7 +311,7 @@ const showcaseCases = [
         prompt: "为文章内容生成信息图。要求：1. 将内容翻译成英文，并提炼文章的关键信息 2. 图中内容保持精简，只保留大标题 3. 图中文字采用英文 4. 加上丰富可爱的卡通人物和元素",
         author: "@黄建同学",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case14/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case14/output.jpg"
     },
     {
         id: 15,
@@ -319,7 +321,7 @@ const showcaseCases = [
         prompt: "以九宫格的方式生成这个人不同发型的头像",
         author: "@balconychy",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case15/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case15/output.jpg"
     },
     {
         id: 16,
@@ -329,7 +331,7 @@ const showcaseCases = [
         prompt: "绘制[3D人体器官模型展示示例心脏]用于学术展示，进行标注讲解，适用于展示其原理和[每个器官]的功能，非常逼真，高度还原，精细度非常细致的设计",
         author: "@berryxia_ai",
         imageRequired: false,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case16/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case16/output.jpg"
     },
     {
         id: 17,
@@ -339,7 +341,7 @@ const showcaseCases = [
         prompt: "一张超详细的图像中主体雕塑的写实图像，由闪亮的大理石制成。雕塑应展示光滑反光的大理石表面，强调其光泽和艺术工艺。设计优雅，突出大理石的美丽和深度。图像中的光线应增强雕塑的轮廓和纹理，创造出视觉上令人惊叹和迷人的效果",
         author: "@umesh_ai",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case17/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case17/output.jpg"
     },
     {
         id: 18,
@@ -349,8 +351,8 @@ const showcaseCases = [
         prompt: "用这些食材为我做一顿美味的午餐，放在盘子里，盘子的特写视图，移除其他盘子和食材",
         author: "@Gdgtify",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case18/input1.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case18/output1.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case18/input1.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case18/output1.jpg"
     },
     {
         id: 19,
@@ -360,8 +362,8 @@ const showcaseCases = [
         prompt: "根据问题将问题的答案写在对应的位置上",
         author: "@Gorden Sun",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case19/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case19/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case19/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case19/output.jpg"
     },
     {
         id: 20,
@@ -371,8 +373,8 @@ const showcaseCases = [
         prompt: "修复并为这张照片上色",
         author: "@GeminiApp",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case20/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case20/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case20/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case20/output.jpg"
     },
     {
         id: 21,
@@ -382,8 +384,8 @@ const showcaseCases = [
         prompt: "选择图1中的人，让他们穿上图2中的所有服装和配饰。在户外拍摄一系列写实的OOTD风格照片，使用自然光线，时尚的街头风格，清晰的全身镜头。保持图1中人物的身份和姿势，但以连贯时尚的方式展示图2中的完整服装和配饰",
         author: "@302.AI",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case21/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case21/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case21/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case21/output.jpg"
     },
     {
         id: 22,
@@ -393,8 +395,8 @@ const showcaseCases = [
         prompt: "将输入图像中人物的服装替换为参考图像中显示的目标服装。保持人物的姿势、面部表情、背景和整体真实感不变。让新服装看起来自然、合身，并与光线和阴影保持一致。不要改变人物的身份或环境——只改变衣服",
         author: "@skirano",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case22/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case22/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case22/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case22/output.jpg"
     },
     {
         id: 23,
@@ -404,8 +406,8 @@ const showcaseCases = [
         prompt: "在白色背景上生成前、后、左、右、上、下视图。均匀分布。一致的主体。等距透视等效",
         author: "@Error_HTTP_404",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case23/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case23/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case23/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case23/output.jpg"
     },
     {
         id: 24,
@@ -415,8 +417,8 @@ const showcaseCases = [
         prompt: "用这两个角色创作一个令人上瘾的12部分故事，包含12张图像，讲述经典的黑色电影侦探故事。故事关于他们寻找线索并最终发现的失落的宝藏。整个故事充满刺激，有情感的高潮和低谷，以精彩的转折和高潮结尾。不要在图像中包含任何文字或文本，纯粹通过图像本身讲述故事",
         author: "@GeminiApp",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case24/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case24/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case24/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case24/output.jpg"
     },
     {
         id: 25,
@@ -426,8 +428,8 @@ const showcaseCases = [
         prompt: "让图片中的人直视前方",
         author: "@arrakis_ai",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case25/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case25/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case25/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case25/output.jpg"
     },
     {
         id: 26,
@@ -437,8 +439,8 @@ const showcaseCases = [
         prompt: "将图一人物换成图二姿势，专业摄影棚拍摄",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case26/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case26/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case26/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case26/output.jpg"
     },
     {
         id: 27,
@@ -448,8 +450,8 @@ const showcaseCases = [
         prompt: "在整个图片上反复覆盖\"TRUMP\"这个词。",
         author: "@AiMachete",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case27/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case27/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case27/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case27/output.jpg"
     },
     {
         id: 28,
@@ -459,7 +461,7 @@ const showcaseCases = [
         prompt: "为我制作一张世界五座最高建筑的信息图 / 制作一张关于地球上最甜蜜事物的彩色信息图",
         author: "@icreatelife",
         imageRequired: false,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case28/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case28/output.jpg"
     },
     {
         id: 29,
@@ -469,8 +471,8 @@ const showcaseCases = [
         prompt: "分析这张图片。用红笔标出你可以改进的地方。",
         author: "@AiMachete",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case29/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case29/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case29/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case29/output.jpg"
     },
     {
         id: 30,
@@ -480,7 +482,7 @@ const showcaseCases = [
         prompt: "在具有戏剧性的现代场景中拍摄该产品，并伴随着爆炸性的向外动态排列，主要成分新鲜和原始在产品周围飞舞，表明其新鲜度和营养价值。促销广告镜头，没有文字，强调产品，以关键品牌颜色作为背景。",
         author: "@icreatelife",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case30/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case30/output.jpg"
     },
     {
         id: 31,
@@ -490,8 +492,8 @@ const showcaseCases = [
         prompt: "基于上传的图像，制作漫画书条幅，添加文字，写一个引人入胜的故事。我想要一本奇幻漫画书。",
         author: "@icreatelife",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case31/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case31/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case31/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case31/output.jpg"
     },
     {
         id: 32,
@@ -501,8 +503,8 @@ const showcaseCases = [
         prompt: "制作一个写着 [\"AI Evangelist - Kris\"] 的动作人偶，并包含 [咖啡、乌龟、笔记本电脑、手机和耳机] 。",
         author: "@icreatelife",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case32/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case32/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case32/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case32/output.jpg"
     },
     {
         id: 33,
@@ -512,8 +514,8 @@ const showcaseCases = [
         prompt: "以这个位置为地标，将其设为等距图像（仅建筑物），采用游戏主题公园的风格",
         author: "@demishassabis",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case33/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case33/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case33/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case33/output.jpg"
     },
     {
         id: 34,
@@ -523,7 +525,7 @@ const showcaseCases = [
         prompt: "图一人物参考/换成图二人物的表情",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case34/case.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case34/case.jpg"
     },
     {
         id: 35,
@@ -533,7 +535,7 @@ const showcaseCases = [
         prompt: "为人物生成绘画过程四宫格，第一步：线稿，第二步平铺颜色，第三步：增加阴影，第四步：细化成型。不要文字",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case35/case.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case35/case.jpg"
     },
     {
         id: 36,
@@ -543,7 +545,7 @@ const showcaseCases = [
         prompt: "为图一人物化上图二的妆，还保持图一的姿势",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case36/case.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case36/case.jpg"
     },
     {
         id: 37,
@@ -553,8 +555,8 @@ const showcaseCases = [
         prompt: "分析这张图片。用红笔标出可以改进的地方 Analyze this image. Use red pen to denote where you can improve",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case37/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case37/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case37/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case37/output.jpg"
     },
     {
         id: 38,
@@ -564,7 +566,7 @@ const showcaseCases = [
         prompt: "行车记录仪谷歌街景拍摄 | [霍比屯街道] | [霍比特人进行园艺和抽烟斗等日常活动] | [晴天]",
         author: "@TechHallo",
         imageRequired: false,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case38/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case38/output.jpg"
     },
     {
         id: 39,
@@ -574,7 +576,7 @@ const showcaseCases = [
         prompt: "仅使用短语 [\"riding a bike\"] 中的字母，创作一幅极简主义的黑白印刷插图，描绘骑自行车的场景。每个字母的形状和位置都应富有创意，以构成骑车人、自行车和动感。设计应简洁、极简，完全由修改后的 [\"riding a bike\"] 字母组成，不添加任何额外的形状或线条。字母应流畅或弯曲，以模仿场景的自然形态，同时保持清晰易读。",
         author: "@Umesh",
         imageRequired: false,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case39/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case39/output.jpg"
     },
     {
         id: 40,
@@ -584,7 +586,7 @@ const showcaseCases = [
         prompt: "请为这幅插图创建一个姿势表，摆出各种姿势",
         author: "@tapehead_Lab",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case40/case.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case40/case.jpg"
     },
     {
         id: 41,
@@ -594,7 +596,7 @@ const showcaseCases = [
         prompt: "把图一贴在图二易拉罐上，并放在极简设计的布景中，专业摄影",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case41/case.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case41/case.jpg"
     },
     {
         id: 42,
@@ -604,7 +606,7 @@ const showcaseCases = [
         prompt: "为图一照片叠加上图二 [玻璃] 的效果",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case42/case.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case42/case.jpg"
     },
     {
         id: 43,
@@ -614,7 +616,7 @@ const showcaseCases = [
         prompt: "图一人物按照图二的脸型设计为q版形象",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case43/case.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case43/case.jpg"
     },
     {
         id: 44,
@@ -624,7 +626,7 @@ const showcaseCases = [
         prompt: "图一人物变成图二光影，深色为暗",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case44/case.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case44/case.jpg"
     },
     {
         id: 45,
@@ -634,8 +636,8 @@ const showcaseCases = [
         prompt: "将照片中的人物转化为乐高小人包装盒的风格，以等距透视呈现。在包装盒上标注标题\"ZHOGUE\"。在盒内展示基于照片中人物的乐高小人，并配有他们必需的物品（如化妆品、包或其他物品）作为乐高配件。在盒子旁边，也展示实际乐高小人本身，未包装，以逼真且生动的方式渲染。",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case45/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case45/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case45/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case45/output.jpg"
     },
     {
         id: 46,
@@ -645,8 +647,8 @@ const showcaseCases = [
         prompt: "将照片中的人物转化为高达模型套件包装盒的风格，以等距透视呈现。在包装盒上标注标题\"ZHOGUE\"。在盒内展示照片中人物的高达风格机械人版本，并伴随其必需品（如化妆品、包袋或其他物品）重新设计为未来派机械配件。包装盒应类似真实的 Gunpla 盒子，包含技术插图、说明书风格细节和科幻字体。在盒子旁边，也展示实际的高达风格机械人本身，在包装外以逼真且栩栩如生的风格渲染，类似于官方 Bandai 宣传渲染图。",
         author: "@ZHO_ZHO_ZHO",
         imageRequired: true,
-        inputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case46/input.jpg",
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case46/output.jpg"
+        inputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case46/input.jpg",
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case46/output.jpg"
     },
     {
         id: 47,
@@ -656,7 +658,7 @@ const showcaseCases = [
         prompt: "数码单反相机的分解图，展示了其所有配件和内部组件，例如镜头、滤镜、内部组件、镜头、传感器、螺丝、按钮、取景器、外壳和电路板。保留了数码单反相机的红色装饰。",
         author: "@AIimagined",
         imageRequired: false,
-        outputImage: "https://github.com/PicoTrex/Awesome-Nano-Banana-images/raw/main/images/case47/output.jpg"
+        outputImage: "https://huangchip-example-images.oss-cn-shanghai.aliyuncs.com/images/case47/output.jpg"
     }
 ];
 
